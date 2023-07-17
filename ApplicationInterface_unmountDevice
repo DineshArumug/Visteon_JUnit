@@ -1,0 +1,43 @@
+package com.allgo.devicecontrolmanager;
+
+import com.allgo.DevCtrlMgrIface.*;
+import com.allgo.devicecontrolmanager.ApplicationInterface;
+import android.os.RemoteException;
+import androidx.test.ext.junit.runners.AndroidJUnit4;
+import android.test.suitebuilder.annotation.MediumTest;
+import java.lang.reflect.Field;
+import android.util.Log;
+
+import static org.junit.Assert.*;
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.JUnit4;
+import org.mockito.Mock;
+import org.mockito.MockitoAnnotations;
+import static org.mockito.Mockito.doNothing;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.*;
+
+@MediumTest
+@RunWith(AndroidJUnit4.class)
+public class ApplicationInterfaceTest {
+
+    private ApplicationInterface mApplicationInterface;
+    
+    @Mock
+    private RemotableEventType mMockremotableEventType;
+    @Mock
+    private RemotableDevInfo mMockremotableDevInfo;
+    @Mock
+    private IDevCtrlManagerHMICb mMockHMICb;
+    @Mock
+    private DeviceStateManager mMockdeviceStateManager;
+
+
+    @Before
+    public void setup()
+    {
+        MockitoAnnotations.initMocks(this);
+        mApplicationInterface = new ApplicationInterface(mMockHMICb, mMockdeviceStateManager);
+    }
