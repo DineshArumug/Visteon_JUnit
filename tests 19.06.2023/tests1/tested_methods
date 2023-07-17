@@ -1,0 +1,67 @@
+darumug6@IND6NR6JL3-L:~/Dinesh/testing/tests 19.06.2023$ adb install -r DeviceControlManagerInstrumentationTests.apk 
+Success
+darumug6@IND6NR6JL3-L:~/Dinesh/testing/tests 19.06.2023$ adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterfaceTest#onDeviceConnected_RemotableDevInfoNull_ReturnSuccessStatus com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+com.allgo.devicecontrolmanager.ApplicationInterfaceTest:.
+
+Time: 0.098
+
+OK (1 test)
+
+
+darumug6@IND6NR6JL3-L:~/Dinesh/testing/tests 19.06.2023$ adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterfaceTest#onDeviceConnected_RemotableEventTypeNull_ReturnSuccessStatus com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+com.allgo.devicecontrolmanager.ApplicationInterfaceTest:.
+
+Time: 0.1
+
+OK (1 test)
+
+
+darumug6@IND6NR6JL3-L:~/Dinesh/testing/tests 19.06.2023$ adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterfaceTest#onDeviceConnected_BothObjectNonNull_ReturnSuccessStatus com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+com.allgo.devicecontrolmanager.ApplicationInterfaceTest:.
+
+Time: 0.096
+
+OK (1 test)
+
+
+darumug6@IND6NR6JL3-L:~/Dinesh/testing/tests 19.06.2023$ adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterfaceTest#onDeviceConnected_BothObjectWithNull_ReturnSuccessStatus com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+com.allgo.devicecontrolmanager.ApplicationInterfaceTest:.
+
+Time: 0.095
+
+OK (1 test)
+
+
+darumug6@IND6NR6JL3-L:~/Dinesh/testing/tests 19.06.2023$ adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterfaceTest#onDeviceConnected_mCallbackWithNull_ReturnInvalidStatus com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+
+com.allgo.devicecontrolmanager.ApplicationInterfaceTest:.
+
+Time: 0.091
+
+OK (1 test)
+
+
+darumug6@IND6NR6JL3-L:~/Dinesh/testing/tests 19.06.2023$ adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterfaceTest#onDeviceConnected_mCallbackWithoutNull_ReturnSucessStatus com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+com.allgo.devicecontrolmanager.ApplicationInterfaceTest:.
+
+Time: 0.106
+
+OK (1 test)
+
+
+darumug6@IND6NR6JL3-L:~/Dinesh/testing/tests 19.06.2023$ adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterfaceTest com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+com.allgo.devicecontrolmanager.ApplicationInterfaceTest:......
+
+Time: 0.134
+
+OK (6 tests)
+
+
+

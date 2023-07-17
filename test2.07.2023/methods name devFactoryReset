@@ -1,0 +1,8 @@
+method 1
+adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_devFactoryReset#devFactoryReset_DeviceStateManagerWithNull_ReturnInvalidResult com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+method 2
+adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_devFactoryReset#devFactoryReset_DeviceStateManagerWithNonNull_ReturnSuccessResult com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+method all
+adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_devFactoryReset com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner

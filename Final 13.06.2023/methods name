@@ -1,0 +1,20 @@
+method 1
+adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterfaceTest#onDeviceConnected_RemotableDevInfoNull_ReturnSuccessStatus com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+method 2
+adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterfaceTest#onDeviceConnected_RemotableEventTypeNull_ReturnSuccessStatus com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+method 3
+adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterfaceTest#onDeviceConnected_BothObjectNonNull_ReturnSuccessStatus com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+method 4
+adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterfaceTest#onDeviceConnected_BothObjectWithNull_ReturnSuccessStatus com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+method 5
+adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterfaceTest#onDeviceConnected_mCallbackWithNull_ReturnInvalidStatus com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+method 6
+adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterfaceTest#onDeviceConnected_mCallbackWithoutNull_ReturnSucessStatus com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+All Method
+adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterfaceTest com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner

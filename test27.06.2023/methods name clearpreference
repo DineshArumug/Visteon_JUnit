@@ -1,0 +1,21 @@
+method 1
+adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_clearUserPreference#ClearUserPreference_DeviceStateManagerWithNull_ReturnInvalidStatus com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+method 2
+adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_clearUserPreference#ClearUserPreference_DeviceStateManagerWithNonNull_ReturnSuccessStatus com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+method 3
+adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_clearUserPreference#ClearUserPreference_RemotableWithNull_ReturnInvalidStatus com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+method 4
+adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_clearUserPreference#ClearUserPreference_RemotableDevInfoWithMinValue_ReturnSuccessStatus com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+method 5
+adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_clearUserPreference#ClearUserPreference_RemotableDevInfoWithMaxValue_ReturnSuccessStatus com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+method 6
+adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_clearUserPreference#ClearUserPreference_RemotableDevInfoWithZero_ReturnSuccessStatus com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+
+All Method
+adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_clearUserPreference com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner

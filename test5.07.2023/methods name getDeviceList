@@ -1,0 +1,18 @@
+method 1
+adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_getDeviceList#testGetDeviceList_ValidCapabilityMask com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+method 2
+adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_getDeviceList#testGetDeviceList_InvalidCapabilityMask com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+method 3
+adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_getDeviceList#testGetDeviceList_EmptyDeviceList com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+method 4
+adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_getDeviceList#testGetDeviceList_NullDeviceStateManager com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+method 5
+adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_getDeviceList#testGetDeviceList_NullCallback com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+
+method all
+adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_getDeviceList com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner

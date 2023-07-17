@@ -1,0 +1,154 @@
+darumug6@IND6NR6JL3-L:~/Dinesh/testing/test5.07.2023$ adb install -r DeviceControlManagerInstrumentationTests.apk 
+Success
+darumug6@IND6NR6JL3-L:~/Dinesh/testing/test5.07.2023$ adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_getDeviceList com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+com.allgo.devicecontrolmanager.ApplicationInterface_getDeviceList:.....
+
+Time: 0.214
+
+OK (5 tests)
+
+
+darumug6@IND6NR6JL3-L:~/Dinesh/testing/test5.07.2023$ adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_getDeviceList#testGetDeviceList_ValidCapabilityMask com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+com.allgo.devicecontrolmanager.ApplicationInterface_getDeviceList:.
+
+Time: 0.082
+
+OK (1 test)
+
+
+darumug6@IND6NR6JL3-L:~/Dinesh/testing/test5.07.2023$ adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_getDeviceList#testGetDeviceList_InvalidCapabilityMask com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+com.allgo.devicecontrolmanager.ApplicationInterface_getDeviceList:.
+
+Time: 0.085
+
+OK (1 test)
+
+
+darumug6@IND6NR6JL3-L:~/Dinesh/testing/test5.07.2023$ adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_getDeviceList#testGetDeviceList_EmptyDeviceList com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+com.allgo.devicecontrolmanager.ApplicationInterface_getDeviceList:.
+
+Time: 0.083
+
+OK (1 test)
+
+
+darumug6@IND6NR6JL3-L:~/Dinesh/testing/test5.07.2023$ adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_getDeviceList#testGetDeviceList_NullDeviceStateManager com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+com.allgo.devicecontrolmanager.ApplicationInterface_getDeviceList:.
+
+Time: 0.084
+
+OK (1 test)
+
+
+darumug6@IND6NR6JL3-L:~/Dinesh/testing/test5.07.2023$ adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_getDeviceList#testGetDeviceList_NullCallback com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+com.allgo.devicecontrolmanager.ApplicationInterface_getDeviceList:.
+
+Time: 0.086
+
+OK (1 test)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+darumug6@IND6NR6JL3-L:~/Dinesh/testing/test5.07.2023/new$ adb install -r DeviceControlManagerInstrumentationTests.apk 
+Success
+darumug6@IND6NR6JL3-L:~/Dinesh/testing/test5.07.2023/new$ adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_getDeviceList com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+com.allgo.devicecontrolmanager.ApplicationInterface_getDeviceList:.....
+
+Time: 0.106
+
+OK (5 tests)
+
+
+darumug6@IND6NR6JL3-L:~/Dinesh/testing/test5.07.2023/new$ adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_getDeviceList#testGetDeviceList_ValidCapabilityMask com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+com.allgo.devicecontrolmanager.ApplicationInterface_getDeviceList:.
+
+Time: 0.084
+
+OK (1 test)
+
+
+darumug6@IND6NR6JL3-L:~/Dinesh/testing/test5.07.2023/new$ adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_getDeviceList#testGetDeviceList_InvalidCapabilityMask com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+com.allgo.devicecontrolmanager.ApplicationInterface_getDeviceList:.
+
+Time: 0.087
+
+OK (1 test)
+
+
+darumug6@IND6NR6JL3-L:~/Dinesh/testing/test5.07.2023/new$ adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_getDeviceList#testGetDeviceList_EmptyDeviceList com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+com.allgo.devicecontrolmanager.ApplicationInterface_getDeviceList:.
+
+Time: 0.085
+
+OK (1 test)
+
+
+darumug6@IND6NR6JL3-L:~/Dinesh/testing/test5.07.2023/new$ adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_getDeviceList#testGetDeviceList_NullDeviceStateManager com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+com.allgo.devicecontrolmanager.ApplicationInterface_getDeviceList:.
+
+Time: 0.086
+
+OK (1 test)
+
+
+darumug6@IND6NR6JL3-L:~/Dinesh/testing/test5.07.2023/new$ adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_getDeviceList#testGetDeviceList_NullCallback com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+com.allgo.devicecontrolmanager.ApplicationInterface_getDeviceList:.
+
+Time: 0.085
+
+OK (1 test)
+
+
+
+
+

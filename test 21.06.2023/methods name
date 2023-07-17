@@ -1,0 +1,15 @@
+method 1
+adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_unmountDevice#unmountDevice_deviceStateManagerWithNull_StatusInvalidResult com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+method 2
+adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_unmountDevice#unmountDevice_deviceHandleWithZero_StatusSuccessResult com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+method 3
+adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_unmountDevice#unmountDevice_deviceHandleWithMaxValue_StatusSuccessResult com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+method 4
+adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_unmountDevice#unmountDevice_deviceHandleWithMinValue_StatusSuccessResult com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+
+All Method
+adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_unmountDevice com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner

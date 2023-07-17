@@ -1,0 +1,148 @@
+darumug6@IND6NR6JL3-L:~/Dinesh/testing/test2.07.2023$ adb install -r DeviceControlManagerInstrumentationTests.apk 
+Success
+darumug6@IND6NR6JL3-L:~/Dinesh/testing/test2.07.2023$ adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_unmountDevice com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+com.allgo.devicecontrolmanager.ApplicationInterface_unmountDevice:.....
+
+Time: 0.224
+
+OK (5 tests)
+
+
+darumug6@IND6NR6JL3-L:~/Dinesh/testing/test2.07.2023$ adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_unmountDevice#unmountDevice_deviceStateManagerWithNull_StatusInvalidResult com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+com.allgo.devicecontrolmanager.ApplicationInterface_unmountDevice:.
+
+Time: 0.083
+
+OK (1 test)
+
+
+darumug6@IND6NR6JL3-L:~/Dinesh/testing/test2.07.2023$ adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_unmountDevice#unmountDevice_deviceHandleWithZero_StatusSuccessResult com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+com.allgo.devicecontrolmanager.ApplicationInterface_unmountDevice:.
+
+Time: 0.088
+
+OK (1 test)
+
+
+darumug6@IND6NR6JL3-L:~/Dinesh/testing/test2.07.2023$ adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_unmountDevice#unmountDevice_deviceHandleWithMaxValue_StatusSuccessResult com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+com.allgo.devicecontrolmanager.ApplicationInterface_unmountDevice:.
+
+Time: 0.088
+
+OK (1 test)
+
+
+darumug6@IND6NR6JL3-L:~/Dinesh/testing/test2.07.2023$ adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_unmountDevice#unmountDevice_deviceHandleWithMinValue_StatusSuccessResult com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+
+com.allgo.devicecontrolmanager.ApplicationInterface_unmountDevice:.
+
+Time: 0.086
+
+OK (1 test)
+
+
+darumug6@IND6NR6JL3-L:~/Dinesh/testing/test2.07.2023$ adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_unmountDevice#unmountDevice_deviceHandleWithNegativeValue_statusSucessResult com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+com.allgo.devicecontrolmanager.ApplicationInterface_unmountDevice:.
+
+Time: 0.084
+
+OK (1 test)
+
+
+darumug6@IND6NR6JL3-L:~/Dinesh/testing/test2.07.2023$ adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_clearUserPreference com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+com.allgo.devicecontrolmanager.ApplicationInterface_clearUserPreference:......
+
+Time: 0.158
+
+OK (6 tests)
+
+
+darumug6@IND6NR6JL3-L:~/Dinesh/testing/test2.07.2023$ adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_clearUserPreference#ClearUserPreference_RemotableDevInfoWithMinValue_ReturnSuccessStatus com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+com.allgo.devicecontrolmanager.ApplicationInterface_clearUserPreference:.
+
+Time: 0.092
+
+OK (1 test)
+
+
+darumug6@IND6NR6JL3-L:~/Dinesh/testing/test2.07.2023$ adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_clearUserPreference#ClearUserPreference_RemotableDevInfoWithMaxValue_ReturnSuccessStatus com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+com.allgo.devicecontrolmanager.ApplicationInterface_clearUserPreference:.
+
+Time: 0.094
+
+OK (1 test)
+
+
+darumug6@IND6NR6JL3-L:~/Dinesh/testing/test2.07.2023$ adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_clearUserPreference#ClearUserPreference_RemotableDevInfoWithZero_ReturnSuccessStatus com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+com.allgo.devicecontrolmanager.ApplicationInterface_clearUserPreference:.
+
+Time: 0.092
+
+OK (1 test)
+
+
+darumug6@IND6NR6JL3-L:~/Dinesh/testing/test2.07.2023$ adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_clearUserPreference#ClearUserPreference_RemotableDevInfoWithNull_ReturnInvalidStatus com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+com.allgo.devicecontrolmanager.ApplicationInterface_clearUserPreference:.
+
+Time: 0.091
+
+OK (1 test)
+
+
+darumug6@IND6NR6JL3-L:~/Dinesh/testing/test2.07.2023$ adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_clearUserPreference#ClearUserPreference_DeviceStateManagerWithNull_ReturnInvalidStatus com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+
+com.allgo.devicecontrolmanager.ApplicationInterface_clearUserPreference:.
+
+Time: 0.087
+
+OK (1 test)
+
+
+darumug6@IND6NR6JL3-L:~/Dinesh/testing/test2.07.2023$ adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_clearUserPreference#ClearUserPreference_DeviceStateManagerWithNonNull_ReturnSuccessStatus com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+com.allgo.devicecontrolmanager.ApplicationInterface_clearUserPreference:.
+
+Time: 0.095
+
+OK (1 test)
+
+
+darumug6@IND6NR6JL3-L:~/Dinesh/testing/test2.07.2023$ adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_devFactoryReset com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+com.allgo.devicecontrolmanager.ApplicationInterface_devFactoryReset:..
+
+Time: 0.099
+
+OK (2 tests)
+
+
+darumug6@IND6NR6JL3-L:~/Dinesh/testing/test2.07.2023$ adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_devFactoryReset#devFactoryReset_DeviceStateManagerWithNonNull_ReturnSuccessResult com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+com.allgo.devicecontrolmanager.ApplicationInterface_devFactoryReset:.
+
+Time: 0.09
+
+OK (1 test)
+
+
+darumug6@IND6NR6JL3-L:~/Dinesh/testing/test2.07.2023$ adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_devFactoryReset#devFactoryReset_DeviceStateManagerWithNull_ReturnInvalidResult com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+com.allgo.devicecontrolmanager.ApplicationInterface_devFactoryReset:.
+
+Time: 0.083
+
+OK (1 test)
+
+

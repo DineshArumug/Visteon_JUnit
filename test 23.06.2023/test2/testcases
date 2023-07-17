@@ -1,0 +1,67 @@
+darumug6@IND6NR6JL3-L:~/Dinesh/testing/test 23.06.2023/test2$ adb install -r DeviceControlManagerInstrumentationTests.apk 
+Success
+darumug6@IND6NR6JL3-L:~/Dinesh/testing/test 23.06.2023/test2$ adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_unmountDevice com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+com.allgo.devicecontrolmanager.ApplicationInterface_unmountDevice:.....
+
+Time: 0.162
+
+OK (5 tests)
+
+
+darumug6@IND6NR6JL3-L:~/Dinesh/testing/test 23.06.2023/test2$ adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_unmountDevice#unmountDevice_deviceStateManagerWithNull_StatusInvalidResult com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+com.allgo.devicecontrolmanager.ApplicationInterface_unmountDevice:.
+
+Time: 0.112
+
+OK (1 test)
+
+
+darumug6@IND6NR6JL3-L:~/Dinesh/testing/test 23.06.2023/test2$ adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_unmountDevice#unmountDevice_deviceHandleWithZero_StatusSuccessResult com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+com.allgo.devicecontrolmanager.ApplicationInterface_unmountDevice:.
+
+Time: 0.114
+
+OK (1 test)
+
+
+darumug6@IND6NR6JL3-L:~/Dinesh/testing/test 23.06.2023/test2$ adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_unmountDevice#unmountDevice_deviceHandleWithMaxValue_StatusSuccessResult com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+
+com.allgo.devicecontrolmanager.ApplicationInterface_unmountDevice:.
+
+Time: 0.126
+
+OK (1 test)
+
+
+darumug6@IND6NR6JL3-L:~/Dinesh/testing/test 23.06.2023/test2$ adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_unmountDevice#unmountDevice_deviceHandleWithMinValue_StatusSuccessResult com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+com.allgo.devicecontrolmanager.ApplicationInterface_unmountDevice:.
+
+Time: 0.121
+
+OK (1 test)
+
+
+darumug6@IND6NR6JL3-L:~/Dinesh/testing/test 23.06.2023/test2$ adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_unmountDevice#unmountDevice_deviceHandleWithNegativeValue_statusSucessResult com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+com.allgo.devicecontrolmanager.ApplicationInterface_unmountDevice:.
+
+Time: 0.113
+
+OK (1 test)
+
+
+darumug6@IND6NR6JL3-L:~/Dinesh/testing/test 23.06.2023/test2$ adb shell am instrument -w -e class com.allgo.devicecontrolmanager.ApplicationInterface_unmountDevice com.allgo.devicecontrolmanager.tests/androidx.test.runner.AndroidJUnitRunner
+
+com.allgo.devicecontrolmanager.ApplicationInterface_unmountDevice:.....
+
+Time: 0.153
+
+OK (5 tests)
+
+
+darumug6@IND6NR6JL3-L:~/Dinesh/testing/test 23.06.2023/test2$ 
